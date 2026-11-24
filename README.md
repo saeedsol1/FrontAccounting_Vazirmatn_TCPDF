@@ -10,10 +10,15 @@
 - vazirmatn.ttf
 
 Persian in FrontAccounting
+
 Install fa_IR Persian Language within FA
+
 Edit the encoding in lang/installed_languages.inc to be 'utf-8' for fa_IR language
+
 Upload the Persian fonts (vazirmatn) to the reporting/fonts folder
+
 Edit lines 158 in reporting/includes/class.pdf.inc to be:
+
 case "fa_IR" : 	$fontname = "vazirmatn"; 	break;
 
 از قبل باید زبان فارسی را در نرم افزار نصب و فعال کرده باشید
